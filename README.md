@@ -1,9 +1,5 @@
 # iqair_backend
 
-## note: * database connection user and password are given in clear without using .env file (training database account)!
-         ** the first insertion to database will be done after 60 seconds of the first execution (CRON JOB)
-
-
 
 this script is done to accomplish this tasks
 
@@ -27,4 +23,5 @@ this script is done to accomplish this tasks
 
 ## required installations: npm i  express mongoose cors body-parser node-cron
 
-
+note: * database connection user and password are given in clear without using .env file (training database account)!
+      ** the first insertion to database will be done after 60 seconds of the first execution (CRON JOB)
